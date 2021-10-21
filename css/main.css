@@ -1,7 +1,52 @@
 html {
   box-sizing: border-box;
+  font-family: 'Overpass', sans-serif;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  background-image: linear-gradient;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+:hover
+display: grid;
+display: flex;
+
+
+
+
+
+@38 media query {
+
 }
